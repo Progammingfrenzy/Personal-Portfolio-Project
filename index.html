@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aisha K. | Software Engineering Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="App.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,6 +19,7 @@
                 <li><a href="#contact">Contacts</a></li>
             </ul>
         </nav>
+        <button id="theme-toggle">☀️</button>
     </header>
     <main>
 
@@ -27,27 +30,17 @@
 
         <section id="skills">
             <h2>Technical Skills</h2>
-            <div class="skills-category">
+            <div class="skills-cluster">
                 <h3>Programming Languages</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>MySQL</li>
-                    <li>Bash</li>
-                </ul>
+                 <div class="skills-grid" id="languages-grid"></div>
             </div>
-            <div class="skills-category">
+            <div class="skills-cluster">
                 <h3>Tools & Frameworks</h3>
-                <ul>
-                    <li>Scikit-Learn</li>
-                    <li>Pandas / NumPy</li>
-                    <li>Git / GitHub</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                </ul>
+                <div class="skills-grid" id="tools-grid"></div>
+            </div>
+            <div class="skills-cluster">
+                <h3>Engines & IDEs</h3>
+                <div class="skills-grid" id="engines-grid"></div>
             </div>
         </section>
 
@@ -55,52 +48,16 @@
             <h2>Projects</h2>
             <div class="projects-category">
                 <h3>Academic Projects</h3>
-                <article class="academicProject-card">
-                <h4>NF1 Familial vs. Sporadic Case Classification</h4>
-                <p class="tech-stack">Python | Scikit-Learn | Pandas</p>
-                <p>Studied whether machine learning can distinguish familial and sporadic 
-                    NF1 cases using clinical symptom data. Compared three baseline models 
-                    (Logistic Regression, Random Forest, SVM) against TabPFN, with biological 
-                    interpretation via ANOVA feature ranking and permutation importance analysis</p>
-                <div class="academicProject-links">
-                    <a href="https://github.com/Progammingfrenzy/nf1-final-project" target="_blank">View Code</a>
-                </div>
-            </article>
-            <article class="academicProject-card">
-            <h4>Continue Watching Feature Implementation</h4>
-            <p class="tech-stack">JavaScript | React | Redux | Git / GitHub</p>
-            <p>Personal portfolio copy of a completed course project. Some starter or team project code
-                is included for context. My main contributions focused on frontend feature integration in a
-                React-based streaming app, including implementing and debugging a Continue Watching feature,
-                working with Redux actions, reducers, selectors, and persisted state, troubleshooting build
-                and import issues, and handling API/Firebase configuration through environment variables.</p>
-            <div class="academicProject-links">
-                <a href="https://github.com/Progammingfrenzy/fakeflix-personal" target="_blank">View Code</a>
+                <div id="academic-grid"></div>
             </div>
-            </article>
-            <article class="academicProject-card">
-            <h4>RepGen Reliability Improvements Project</h4>
-            <p class="tech-stack">Python | Bash | Git / GitHub</p>
-            <p>Personal portfolio copy of a completed course project based on an existing research codebase.
-                Some starter or original project code is included for context. My main contributions focused
-                on improving backend and pipeline failure reporting, adding clearer status handling for
-                refinement, planning, and code generation stages, distinguishing backend/API-key-related
-                failures from successful runs, and debugging pipeline behavior across multiple files.</p>
-            <div class="academicProject-links">
-                <a href="https://github.com/Progammingfrenzy/RepGen-personal" target="_blank">View Code</a>
-            </div>
-            </article>
-            </div>
+
             <div class="projects-category">
                 <h3>Personal Projects</h3>
-
-            <article class="personalProject-card">
-                <h4>Personal Portfolio Project</h4>
-                <p class="tech-stack">HTML | CSS | JavaScript</p>
-                <p>This site you are in right now is my Personal Portfolio project. Feel free to look around!</p>
-            </article>
+                <div id="personal-grid"></div> 
             </div>
+
         </section>
+        
         <section id="contact">
             <h2>Get In Touch</h2>
             <p>If you would like to discuss my projects, internships, or engineering work, feel free to reach out.</p>
