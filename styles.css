@@ -1,0 +1,68 @@
+:root{
+    --bg: #0a0a0f;
+    --surface:   #12121a;
+    --text:      #f0e6ff;
+    --pink:      #ff2d78;
+    --cyan:      #00f5ff;
+    --glow:      #bf00ff;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+    padding: 2rem 4rem;
+    border-bottom: 1px solid var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    padding: 2rem 4rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--pink);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--pink);
+    text-shadow: 0 0 10px var(--pink);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--cyan);
+    text-shadow: 0 0 8px var(--cyan);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: var(--text);
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--pink);
+}
