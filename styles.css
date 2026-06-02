@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 .skills-grid {
     display: grid;
-    grid-template-colums: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -78,5 +78,5 @@ nav ul li a:hover {
     background: var(--surface);
     text-align: center;
     border-radius: 8px;
-    
+
 }
