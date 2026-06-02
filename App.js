@@ -49,21 +49,21 @@ const projects = {
             title: "NF1 Familial vs. Sporadic Case Classification",
             tech: "Python | Scikit-Learn | Pandas",
             description: "Studied whether machine learning can distinguish familial and sporadic NF1 cases using clinical symptom data. Compared three baseline models (Logistic Regression, Random Forest, SVM) against TabPFN, with biological interpretation via ANOVA feature ranking and permutation importance analysis.",
-            image: "assets/images/nf1-preview.png",
+            image: "NF1 Familial vs. Sporadic Case Classification.png",
             link: "https://github.com/Progammingfrenzy/nf1-final-project"
         },
         {
             title: "Continue Watching Feature Implementation",
             tech: "JavaScript | React | Redux | Git / GitHub",
             description: "Personal portfolio copy of a completed course project. My main contributions focused on frontend feature integration in a React-based streaming app, including implementing and debugging a Continue Watching feature, working with Redux actions, reducers, selectors, and persisted state.",
-            image: "assets/images/fakeflix-preview.png",
+            image: "FakeFlix Academic project.png",
             link: "https://github.com/Progammingfrenzy/fakeflix-personal"
         },
         {
             title: "RepGen Reliability Improvements Project",
             tech: "Python | Bash | Git / GitHub",
             description: "Personal portfolio copy of a completed course project based on an existing research codebase. My main contributions focused on improving backend and pipeline failure reporting, adding clearer status handling for refinement, planning, and code generation stages.",
-            image: "assets/images/repgen-preview.png",
+            image: "RepGen Reliability Improvements Project.png",
             link: "https://github.com/Progammingfrenzy/RepGen-personal"
         }
     ],
