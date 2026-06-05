@@ -7,6 +7,22 @@
     --glow:      #bf00ff;
 }
 
+body.light-mode {
+    --bg:      #f0e6ff;
+    --surface: #e0d0f5;
+    --text:    #1a0a2e;
+    --pink:    #a0005a;
+    --cyan:    #005570;
+    --glow:    #7b00cc;
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4 {
+    text-shadow: none;
+}
+
 body {
     background: var(--bg);
     color: var(--text);
