@@ -80,3 +80,30 @@ nav ul li a:hover {
     border-radius: 8px;
 
 }
+
+.skill-card i {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    filter: brightness(1.5);
+}
+
+.project-card {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--cyan);
+}
+
+.hidden {
+    display: none;
+}
+
+.card-detail img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: block;
+}
