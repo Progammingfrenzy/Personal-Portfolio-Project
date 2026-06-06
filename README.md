@@ -31,7 +31,7 @@ Currently planning to publish it to show it off.
 ## Future Plans
 - Engines & IDEs section (Unity, Godot, Android Studio)
 - Mobile responsiveness
-- Sleeping cat cursor chaser 🐱 (basically just want  to make a pixelated cat chase your cursor when you "wake" (click) on the cat like a cat chasing a laser pointer just for fun and experimenting what I could do)
+- Sleeping cat cursor chaser 🐱 (basically just want to make a pixelated cat chase your cursor. When you "wake" (click) on the cat, the cat chases the cursor like it's a laser pointer. I thought it would be a cute and fun way to experiment what I could do)
 - More projects as they're completed
 
 ## About
