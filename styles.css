@@ -123,3 +123,24 @@ nav ul li a:hover {
     margin-bottom: 1rem;
     display: block;
 }
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul li a {
+    color: var(--cyan);
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+}
+
+#contact ul li a:hover {
+    color: var(--pink);
+}
